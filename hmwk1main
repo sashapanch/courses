@@ -1,0 +1,37 @@
+package toppack;
+
+public class Main {
+
+    public Main() {
+    }
+
+    public static void main(String[] args) {
+        Cat Koshka=new Cat();
+        Koshka.name = "Koshka";
+        Koshka.color="Black";
+        Koshka.weight=5.4;
+        Koshka.year=2009;
+        Koshka.risinganger(50); // уровень злости кота по
+        Koshka.print();            // 100-бальной шкале)
+
+        Cat MrGinger = new Cat();
+        MrGinger.name = "MrGinger";
+        MrGinger.color = "Ginger";
+        MrGinger.weight=4.8;
+        MrGinger.year= 2008;
+        MrGinger.risinganger(44);
+        MrGinger.print();
+
+        Cat Tyler=new Cat();
+        Tyler.name = "Tyler";
+        Tyler.color="Gray";
+        Tyler.weight=6.1;
+        Tyler.year=2008;
+        Tyler.risinganger(53);
+        Tyler.print();
+
+
+
+    }
+
+}
