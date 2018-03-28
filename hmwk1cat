@@ -1,0 +1,21 @@
+package toppack;
+
+class Cat {
+    String name;
+    String color;
+    double weight;
+    int year;
+    private double anger = 5;
+
+    void risinganger(double a){
+        anger = anger+a;
+    }
+    void print(){
+        System.out.println("My name is: " + name);
+        System.out.println("Color: " + color);
+        System.out.println("Weight: " + weight);
+        System.out.println("Cat's year: " + year);
+        System.out.println("Cat's anger: " + anger);
+        System.out.println();
+    }
+}
